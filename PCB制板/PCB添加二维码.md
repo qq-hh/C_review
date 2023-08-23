@@ -92,21 +92,11 @@ https://cli.im/text
 
 至此，完成二维码在PCB上的添加。
 
-git config --global http.postBuffer 524288000
 
 
 
 
 
-	gu8a_lcd_buff[10]|= 0xC0;
-	gu8a_lcd_buff[11]|= 0x70;
-	gu8a_lcd_buff[8]|= 0xE0;
-	gu8a_lcd_buff[9]|= 0xB0;
-	gu8a_lcd_buff[4]|= 0xE0;
-	gu8a_lcd_buff[5]|= 0xB0;
-	gu8a_lcd_buff[5]|= 0x07;
-	gu8a_lcd_buff[8]|= 0x0E; 
-	gu8a_lcd_buff[9]|= 0x03;
-	gu8a_lcd_buff[10]|= 0x0D;
-	gu8a_lcd_buff[11]|= 0x07;
+
+
 
