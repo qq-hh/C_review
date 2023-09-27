@@ -26,3 +26,15 @@ git log
 
 我们可以对比下github的commit，如下：
 
+![image-20230924094356749](文档中本地图片/image-20230924094356749.png)
+
+我们使用指令
+
+```
+git reset --hard commitID
+```
+
+回滚到指定版本号试下。
+
+例如，我想让它回滚到第二个commit
+
